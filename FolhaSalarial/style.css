@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* A FOLHA DE ESTILO UNI-LOGO FAZ COM QUE O LOGO INTERATIVO ADICIONADO N O HTML FIQUE DO TAMANHO DESEJADO E NO LOCAL DETERMINADO*/
+.uni-logo{
+    width: 150px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/*AUMENTA CONSIDERAVELMENTE O TAMANHO DO H3 PARA 35PX*/
+h3{
+    font-size: 35px;
+}
+
+/*DETERMINA QUE TODOS OS TEXTOS DA PAGINA FIQUEM CENTRALIZADOS*/
+body{
+    text-align: center;
+}
+
+/*DETERMINA A COR DE FUNDO DA PRIMEIRA PARTE DA TABELA*/
+thead{
+    background-color: #b9b9b9;
+}
+
+table, th, td{
+    border: 1px solid #000;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+tr{
+    height: 30px;
+}
+
